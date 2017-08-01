@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17F1AA0067EB46E02D584745 /* Pods_WeTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80DBB81E7AA3E086BE42149 /* Pods_WeTalkTests.framework */; };
 		22119AA01F30A7C800946C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22119A9F1F30A7C800946C77 /* AppDelegate.swift */; };
 		22119AA21F30A7C800946C77 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22119AA11F30A7C800946C77 /* FirstViewController.swift */; };
 		22119AA41F30A7C800946C77 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22119AA31F30A7C800946C77 /* SecondViewController.swift */; };
@@ -15,6 +16,10 @@
 		22119AAC1F30A7C800946C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22119AAA1F30A7C800946C77 /* LaunchScreen.storyboard */; };
 		22119AB71F30A7C800946C77 /* WeTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22119AB61F30A7C800946C77 /* WeTalkTests.swift */; };
 		22119AC21F30A7C800946C77 /* WeTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22119AC11F30A7C800946C77 /* WeTalkUITests.swift */; };
+		221BD7791F30BBD5007D0C6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BD7781F30BBD5007D0C6D /* LoginViewController.swift */; };
+		221BD77B1F30C63C007D0C6D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BD77A1F30C63C007D0C6D /* TabBarController.swift */; };
+		6F6525167290585CC27FAFA2 /* Pods_WeTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1CD6B200A036FEDFDD75B8 /* Pods_WeTalk.framework */; };
+		C8A54006DA3412DAAD9A2904 /* Pods_WeTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A29D6AC01505B9E4EBF3D2 /* Pods_WeTalkUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,17 @@
 		22119ABD1F30A7C800946C77 /* WeTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22119AC11F30A7C800946C77 /* WeTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTalkUITests.swift; sourceTree = "<group>"; };
 		22119AC31F30A7C800946C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221BD7781F30BBD5007D0C6D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		221BD77A1F30C63C007D0C6D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5793D6670E94327BEB20D0AE /* Pods-WeTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk.release.xcconfig"; sourceTree = "<group>"; };
+		A89008CD113BFFFD1A4BAA96 /* Pods-WeTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalkTests/Pods-WeTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE32C742115016A9075DAB24 /* Pods-WeTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalkUITests/Pods-WeTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC46A141FA6EFDB3F38B1135 /* Pods-WeTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalkTests/Pods-WeTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D91114CBCD126A54FAF68398 /* Pods-WeTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A29D6AC01505B9E4EBF3D2 /* Pods_WeTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80DBB81E7AA3E086BE42149 /* Pods_WeTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A74D8F9A73B7BD87495F3C /* Pods-WeTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeTalkUITests/Pods-WeTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF1CD6B200A036FEDFDD75B8 /* Pods_WeTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6525167290585CC27FAFA2 /* Pods_WeTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F1AA0067EB46E02D584745 /* Pods_WeTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A54006DA3412DAAD9A2904 /* Pods_WeTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				22119AB51F30A7C800946C77 /* WeTalkTests */,
 				22119AC01F30A7C800946C77 /* WeTalkUITests */,
 				22119A9D1F30A7C800946C77 /* Products */,
+				E6FF2655AB37E340F3BA825A /* Pods */,
+				699F2E0A6E928D7C510F8DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,8 @@
 				22119AA81F30A7C800946C77 /* Assets.xcassets */,
 				22119AAA1F30A7C800946C77 /* LaunchScreen.storyboard */,
 				22119AAD1F30A7C800946C77 /* Info.plist */,
+				221BD7781F30BBD5007D0C6D /* LoginViewController.swift */,
+				221BD77A1F30C63C007D0C6D /* TabBarController.swift */,
 			);
 			path = WeTalk;
 			sourceTree = "<group>";
@@ -128,6 +151,29 @@
 			path = WeTalkUITests;
 			sourceTree = "<group>";
 		};
+		699F2E0A6E928D7C510F8DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CD6B200A036FEDFDD75B8 /* Pods_WeTalk.framework */,
+				E80DBB81E7AA3E086BE42149 /* Pods_WeTalkTests.framework */,
+				E3A29D6AC01505B9E4EBF3D2 /* Pods_WeTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6FF2655AB37E340F3BA825A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D91114CBCD126A54FAF68398 /* Pods-WeTalk.debug.xcconfig */,
+				5793D6670E94327BEB20D0AE /* Pods-WeTalk.release.xcconfig */,
+				A89008CD113BFFFD1A4BAA96 /* Pods-WeTalkTests.debug.xcconfig */,
+				CC46A141FA6EFDB3F38B1135 /* Pods-WeTalkTests.release.xcconfig */,
+				AE32C742115016A9075DAB24 /* Pods-WeTalkUITests.debug.xcconfig */,
+				F8A74D8F9A73B7BD87495F3C /* Pods-WeTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22119AC61F30A7C800946C77 /* Build configuration list for PBXNativeTarget "WeTalk" */;
 			buildPhases = (
+				C209F4403E56F881569E10B3 /* [CP] Check Pods Manifest.lock */,
 				22119A981F30A7C700946C77 /* Sources */,
 				22119A991F30A7C700946C77 /* Frameworks */,
 				22119A9A1F30A7C700946C77 /* Resources */,
+				E221CDFDDE7D962B776E48B8 /* [CP] Embed Pods Frameworks */,
+				41C5909A90E8DF14615AFBBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22119AC91F30A7C800946C77 /* Build configuration list for PBXNativeTarget "WeTalkTests" */;
 			buildPhases = (
+				AADA38C68A4C58A68FB373E4 /* [CP] Check Pods Manifest.lock */,
 				22119AAE1F30A7C800946C77 /* Sources */,
 				22119AAF1F30A7C800946C77 /* Frameworks */,
 				22119AB01F30A7C800946C77 /* Resources */,
+				2ADD2423ADBB77B0EE6001C2 /* [CP] Embed Pods Frameworks */,
+				77138867521BD10532726578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22119ACC1F30A7C800946C77 /* Build configuration list for PBXNativeTarget "WeTalkUITests" */;
 			buildPhases = (
+				9013C217FD13538BD41AC901 /* [CP] Check Pods Manifest.lock */,
 				22119AB91F30A7C800946C77 /* Sources */,
 				22119ABA1F30A7C800946C77 /* Frameworks */,
 				22119ABB1F30A7C800946C77 /* Resources */,
+				A806CF378A5ECD8660F19A67 /* [CP] Embed Pods Frameworks */,
+				E29A7A5C065F0C57F4B75A6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +315,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ADD2423ADBB77B0EE6001C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalkTests/Pods-WeTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C5909A90E8DF14615AFBBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77138867521BD10532726578 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalkTests/Pods-WeTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9013C217FD13538BD41AC901 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A806CF378A5ECD8660F19A67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalkUITests/Pods-WeTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AADA38C68A4C58A68FB373E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C209F4403E56F881569E10B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E221CDFDDE7D962B776E48B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalk/Pods-WeTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29A7A5C065F0C57F4B75A6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeTalkUITests/Pods-WeTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22119A981F30A7C700946C77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221BD7791F30BBD5007D0C6D /* LoginViewController.swift in Sources */,
 				22119AA41F30A7C800946C77 /* SecondViewController.swift in Sources */,
 				22119AA01F30A7C800946C77 /* AppDelegate.swift in Sources */,
+				221BD77B1F30C63C007D0C6D /* TabBarController.swift in Sources */,
 				22119AA21F30A7C800946C77 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +614,7 @@
 		};
 		22119AC71F30A7C800946C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91114CBCD126A54FAF68398 /* Pods-WeTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6A3C67AMT7;
@@ -432,6 +628,7 @@
 		};
 		22119AC81F30A7C800946C77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5793D6670E94327BEB20D0AE /* Pods-WeTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6A3C67AMT7;
@@ -445,6 +642,7 @@
 		};
 		22119ACA1F30A7C800946C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89008CD113BFFFD1A4BAA96 /* Pods-WeTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +658,7 @@
 		};
 		22119ACB1F30A7C800946C77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC46A141FA6EFDB3F38B1135 /* Pods-WeTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +674,7 @@
 		};
 		22119ACD1F30A7C800946C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE32C742115016A9075DAB24 /* Pods-WeTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6A3C67AMT7;
@@ -489,6 +689,7 @@
 		};
 		22119ACE1F30A7C800946C77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A74D8F9A73B7BD87495F3C /* Pods-WeTalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6A3C67AMT7;
@@ -520,6 +721,7 @@
 				22119AC81F30A7C800946C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22119AC91F30A7C800946C77 /* Build configuration list for PBXNativeTarget "WeTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +730,7 @@
 				22119ACB1F30A7C800946C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22119ACC1F30A7C800946C77 /* Build configuration list for PBXNativeTarget "WeTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +739,7 @@
 				22119ACE1F30A7C800946C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
