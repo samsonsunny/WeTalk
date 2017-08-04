@@ -8,6 +8,7 @@
 
 import UIKit
 import FBSDKLoginKit
+import Firebase
 
 enum ViewControllers: String {
 	
@@ -22,13 +23,24 @@ enum ViewControllers: String {
 
 class LoginViewController: UIViewController {
 	
+	@IBOutlet weak var name: UITextField!
+	
 	override func viewDidLoad() {
-//		let loginButton = LoginButton(readPermissions: [ .publicProfile ])
-//		loginButton.center = view.center
-//		
-//		view.addSubview(loginButton)
 		super.viewDidLoad()
 	}
+	
+	@IBAction func anonumousLogin(_ sender: Any) {
+		Auth.auth().signInAnonymously(completion: { (user, error) in // 2
+			if let err = error { // 3
+				print(err.localizedDescription)
+				return
+			}
+			UserDefaults.standard.set(self.name.text!, forKey: "Name")
+			UserDefaults.standard.synchronize()
+			self.navigationController?.pushViewController(ViewControllers.TabMenu.viewController, animated: true)
+		})
+	}
+	
 	
 	@IBAction func fbLoginClick(_ sender: Any) {
 		
